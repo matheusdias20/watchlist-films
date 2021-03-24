@@ -1,5 +1,3 @@
-// eslint-disable-next-line
-
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
@@ -23,7 +21,10 @@ export const ResultCard = ({ movie }) => {
         <div className="result-card">
             <div className="poster-wrapper">
                 {movie.poster_path ? (
-                    <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} alt="{`${movie.title}`} Poster" />   
+                    <img
+                        src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
+                        alt={`${movie.title} Poster`}
+                    />  
                 ) : (
                     <div className="filter-poster"></div>
                 )}

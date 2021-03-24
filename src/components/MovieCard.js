@@ -8,7 +8,10 @@ export const MovieCard = ({ movie, type }) => {
 
 
             {movie.poster_path ? (
-                    <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} alt="{`${movie.title}`} Poster" />   
+                      <img
+                      src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
+                      alt={`${movie.title} Poster`}
+                    />  
                 ) : (
                     <div className="filter-poster"></div>
             )}
