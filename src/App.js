@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Watchlist } from "./components/Watchlist";
 import { Watched } from "./components/Watched";
 import { Add } from "./components/Add";
+import { Footer } from "./components/Footer";
 import './App.css';
 import "./lib/font-awesome/css/all.min.css";
 
@@ -32,7 +33,9 @@ function App() {
             <Add />
           </Route>
 
+          
         </Switch>
+        <Footer />
       </Router>
     </GlobalProvider>
   );
