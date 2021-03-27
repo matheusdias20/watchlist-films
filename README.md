@@ -8,13 +8,21 @@
 
 
 
-### Site 💻
+### 💻 Site 
 
-- [Controle de Filmes](https://controlmovies.netlify.app/)
+- <strong>[Controle de Filmes](https://controlmovies.netlify.app/)</strong>
 
-## Biblioteca: 📙
+
+## 🚀 Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+
+
+## 📙 Biblioteca
 - REACT
 
 
-## API: 🗃️
+## 🗃️ API
 - https://www.themoviedb.org/
