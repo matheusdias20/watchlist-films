@@ -5,6 +5,17 @@
   <span>Aplicativo criado para controle de filmes, separados por: Filmes para Assistir e Filmes Assistidos, armazenados Local Storage</span>
 </p>
 
+<p align="center">
+  <img src="public/assistir.jpeg" alt="">
+</p>
+
+<p align="center">
+  <img src="public/assistidos.jpeg" alt="">
+</p>
+
+<p align="center">
+  <img src="public/add.jpeg" alt="">
+</p>
 
 
 
